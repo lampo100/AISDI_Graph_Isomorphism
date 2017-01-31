@@ -1,10 +1,10 @@
 ## Implementacja
 Program w c++ sprawdzający izomorfizm dwóch grafów rozdzielnych z możliwymi pętlami. Algorytm sprawdzający użyty do tego celu jest częściową implementacją algorytmu VF2. Jeżeli chodzi o szybkość działania to dla większości grafów do 150 wierzchołków, o ile nie są niezwykle złośliwe czas szukania izomorfizmu to nie więcej niż 30s. Dodatkowo w repozytorium znajduje się parę skryptów w pythonie pomagających w testowaniu i wizualizacji wyniku działania programu. Krótki opis posługiwania się nimi:
-**GraphIsomorphism** - główny program w C++. Jako dwa argumenty należy podać pliki tekstowe w których w odpowiednim formacie(opisane poniżej w instrukcji) podane są dwa grafy które należy sprawdzić.
-**graph.py** - pobiera pliki tekstowe zawierające grafy, a także plik tworzony przez główny program zawierający mapowanie grafów. Następnie rysuje oba grafy i koloruje ich wierzchołki zgodnie z podanym mapowaniem (czyli wierzchołki odpowiadające sobie są w tym samym kolorze). Wykorzystuje bibliotekę IGraph.
-**check_isomorphism.py** - ładuje dwa grafy i sprawdza ich izomorfizm. Jako argumenty należy podać nazwy plików tekstowych.
-**gen.py** - generuje dwa izomorficzne grafy o zpermutowanych wierzchołkach i zapisuje je do plików tekstowych. Jako argumenty programu należy podać ich nazwy.
-**skrypt.sh** - skrypt testowy wywołujący generowanie grafów i sprawdzanie ich izomorfizmu 10 razy.
+**GraphIsomorphism** - główny program w C++. Jako dwa argumenty należy podać pliki tekstowe w których w odpowiednim formacie(opisane poniżej w instrukcji) podane są dwa grafy które należy sprawdzić.  
+**graph.py** - pobiera pliki tekstowe zawierające grafy, a także plik tworzony przez główny program zawierający mapowanie grafów. Następnie rysuje oba grafy i koloruje ich wierzchołki zgodnie z podanym mapowaniem (czyli wierzchołki odpowiadające sobie są w tym samym kolorze). Wykorzystuje bibliotekę IGraph.  
+**check_isomorphism.py** - ładuje dwa grafy i sprawdza ich izomorfizm. Jako argumenty należy podać nazwy plików tekstowych.  
+**gen.py** - generuje dwa izomorficzne grafy o zpermutowanych wierzchołkach i zapisuje je do plików tekstowych. Jako argumenty programu należy podać ich nazwy.  
+**skrypt.sh** - skrypt testowy wywołujący generowanie grafów i sprawdzanie ich izomorfizmu 10 razy.  
 
 
 
